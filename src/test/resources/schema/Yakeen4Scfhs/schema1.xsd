@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:tns="http://yakeen4scfhs.yakeen.elm.com/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://yakeen4scfhs.yakeen.elm.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema2.xsd" />
+  <xs:element name="getCitizenInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CitizenInfoResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

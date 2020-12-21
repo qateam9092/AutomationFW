@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CitizenInfoResult">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="englishFirstName" type="xs:string" />
+        <xs:element name="englishLastName" type="xs:string" />
+        <xs:element name="englishSecondName" type="xs:string" />
+        <xs:element name="englishThirdName" type="xs:string" />
+        <xs:element name="familyName" type="xs:string" />
+        <xs:element name="fatherName" type="xs:string" />
+        <xs:element name="firstName" type="xs:string" />
+        <xs:element name="gender" type="xs:string" />
+        <xs:element name="grandFatherName" type="xs:string" />
+        <xs:element name="idExpiryDate" type="xs:string" />
+        <xs:element name="idIssueDate" type="xs:string" />
+        <xs:element name="idIssuePlace" type="xs:string" />
+        <xs:element name="logId" type="xs:unsignedInt" />
+        <xs:element name="placeOfBirth" type="xs:string" />
+        <xs:element name="subtribeName" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CarInfoBySequenceResult">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="licenseExpiryDate" type="xs:string" />
+        <xs:element name="logId" type="xs:unsignedInt" />
+        <xs:element name="majorColor" type="xs:string" />
+        <xs:element name="modelYear" type="xs:unsignedShort" />
+        <xs:element name="ownerName" type="xs:string" />
+        <xs:element name="plateNumber" type="xs:unsignedShort" />
+        <xs:element name="plateText1" type="xs:string" />
+        <xs:element name="plateText2" type="xs:string" />
+        <xs:element name="plateText3" type="xs:string" />
+        <xs:element name="plateTypeDesc" type="xs:string" />
+        <xs:element name="vehicleMaker" type="xs:string" />
+        <xs:element name="vehicleModel" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

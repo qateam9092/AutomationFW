@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "logId": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "boolean"
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "integer"
+        },
+        "lastLoggedIn": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "userId",
+        "lastLoggedIn",
+        "firstName",
+        "lastName"
+      ]
+    }
+  },
+  "required": [
+    "logId",
+    "title",
+    "completed",
+    "user"
+  ]
+}

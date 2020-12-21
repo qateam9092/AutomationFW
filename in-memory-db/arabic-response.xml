@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:getCarInfoBySequenceResponse xmlns:ns1="http://yakeen4gaca.yakeen.elm.com/">
+      <CarInfoBySequenceResult>
+        <licenseExpiryDate>04-02-1422</licenseExpiryDate>
+        <logId>$logId$</logId>
+        <majorColor>نتالنتال</majorColor>
+        <modelYear>1990</modelYear>
+        <ownerName>علي حماد سليمان الحماد الحماد</ownerName>
+        <plateNumber>876</plateNumber>
+        <plateText1>ب</plateText1>
+        <plateText2>ي</plateText2>
+        <plateText3>ص</plateText3>
+        <plateTypeDesc>أجرة</plateTypeDesc>
+        <vehicleMaker>منتنتانتاا</vehicleMaker>
+        <vehicleModel>نتانتانتا</vehicleModel>
+      </CarInfoBySequenceResult>
+    </ns1:getCarInfoBySequenceResponse>
+  </soap:Body>
+</soap:Envelope>

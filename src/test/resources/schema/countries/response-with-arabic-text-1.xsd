@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:tns="http://yakeen4gaca.yakeen.elm.com/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://yakeen4gaca.yakeen.elm.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="response-with-arabic-text-2.xsd" />
+  <xs:element name="getCarInfoBySequenceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CarInfoBySequenceResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+{
+  "logId": "$logId$",
+  "title": "delectus aut autem",
+  "completed": false,
+  "user": {
+    "userId": "$userId$",
+    "lastLoggedIn": "$lastLoggedIn$",
+    "firstName": "abc",
+    "lastName": "xyz"
+  }
+}

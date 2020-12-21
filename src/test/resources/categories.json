@@ -1,0 +1,66 @@
+[
+  {
+    "name": "SOAP schema validation defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*SAXParseException.*"
+  },
+  {
+    "name": "HTTP status code defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*Expected status code.*"
+  },
+  {
+    "name": "SOAP schema response not matching defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*Found Differences.*"
+  },
+  {
+    "name": "JSON schema validation defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*The content to match the given JSON schema.*"
+  },
+  {
+    "name": "JSON response not matching defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*Iterators differ at element.*"
+  },
+  {
+    "name": "SOAP request body missing defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*Soap request body missing.*"
+  },
+  {
+    "name": "API url connection refused defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*java.net.ConnectException.*"
+  },
+  {
+    "name": "DB connection failure defect",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ],
+    "traceRegex": ".*Session factory is null.*"
+  }
+]
