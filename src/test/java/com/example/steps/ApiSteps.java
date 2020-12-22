@@ -104,6 +104,21 @@ public class ApiSteps extends Base {
   }
 
   /**
+   * Make GraphQL Request
+   */
+  @Step("Make GraphQL Request")
+  public Response makeGraphQLRequest() throws IOException {
+    Response response = given(getRequestSpecification(sheetModel))
+            .urlEncodingEnabled(false)
+            .log().all(true)
+            .post(getResolvedUrlSuffix(sheetModel))
+            .then().log().all(true)
+            .and().extract().response();
+    LOGGER.debug("Response {} ", response.asString());
+    return response;
+  }
+
+  /**
    * Validates response HTTP code
    */
   @Step("Validate response http code")
